@@ -1,18 +1,18 @@
-# @visual-editor/core
+# @_gmdev/visual-editor
 
 A framework-agnostic React visual editor for page sections. Install it in any React project and let your users visually manage page content.
 
 ## Installation
 
 ```bash
-npm install @visual-editor/core
+npm install @_gmdev/visual-editor
 ```
 
 ## Quick Start
 
 ```tsx
-import { VisualEditor } from '@visual-editor/core';
-import type { VisualEditorConfig } from '@visual-editor/core';
+import { VisualEditor } from '@_gmdev/visual-editor';
+import type { VisualEditorConfig } from '@_gmdev/visual-editor';
 
 function HeroSection({ data }) {
   return <h1>{data.title}</h1>;

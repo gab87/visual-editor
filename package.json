@@ -1,5 +1,5 @@
 {
-  "name": "@visual-editor/core",
+  "name": "@_gmdev/visual-editor",
   "version": "0.1.0",
   "description": "A framework-agnostic React visual editor for page sections",
   "type": "module",
