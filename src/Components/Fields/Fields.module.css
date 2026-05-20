@@ -1,0 +1,209 @@
+.fieldGroup {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #94a3b8;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.required {
+  color: #f87171;
+  margin-left: 2px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  background-color: #1e293b;
+  color: #e2e8f0;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.15s ease;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: #3b82f6;
+}
+
+.input::placeholder {
+  color: #475569;
+}
+
+.textarea {
+  composes: input;
+  min-height: 80px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.select {
+  composes: input;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 32px;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #3b82f6;
+  cursor: pointer;
+}
+
+.colorWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.colorInput {
+  width: 40px;
+  height: 36px;
+  padding: 2px;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.colorValue {
+  font-size: 14px;
+  color: #94a3b8;
+  font-family: monospace;
+}
+
+.richTextWrapper {
+  border: 1px solid #334155;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.richTextToolbar {
+  display: flex;
+  gap: 2px;
+  padding: 6px 8px;
+  background-color: #1e293b;
+  border-bottom: 1px solid #334155;
+}
+
+.richTextButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.richTextButton:hover {
+  background-color: #334155;
+  color: #e2e8f0;
+}
+
+.richTextContent {
+  min-height: 120px;
+  padding: 12px;
+  background-color: #1e293b;
+  color: #e2e8f0;
+  font-size: 14px;
+  outline: none;
+  line-height: 1.6;
+}
+
+.repeaterItem {
+  position: relative;
+  padding: 12px;
+  margin-bottom: 8px;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  background-color: rgba(30, 41, 59, 0.5);
+}
+
+.repeaterHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.repeaterIndex {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+}
+
+.repeaterRemove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: #64748b;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.repeaterRemove:hover {
+  background-color: #7f1d1d;
+  color: #fca5a5;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px dashed #334155;
+  border-radius: 6px;
+  background: transparent;
+  color: #64748b;
+  font-size: 13px;
+  cursor: pointer;
+  width: 100%;
+  justify-content: center;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.addButton:hover {
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+
+.imagePreview {
+  margin-top: 8px;
+  max-width: 100%;
+  max-height: 150px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+}
