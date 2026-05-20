@@ -1,0 +1,9 @@
+src
+stories
+.storybook
+node_modules
+*.test.tsx
+*.stories.tsx
+vitest.config.ts
+tsconfig.json
+.gitignore
